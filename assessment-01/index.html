@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script>
+        function myfunction() {
+            document.getElementById("paragraph").innerHTML  = "I have enjoyed some nice places."
+        }
+    </script>
+    <script src="scripts/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Assessment</h1>
+    </header>
+    <main>
+        <p id="paragraph">
+            These are some of my pictures from vacations.
+        </p>
+        <button type="button" class="center" onclick="myfunction()">Click Here First</button>
+        <button type="button" class="center" onclick="myfunction2()">Click Here Next</button>
+        <p id="start"></p>
+        <script>
+            onclick = document.getElementById("paragraph").innerHTML = "I Loved every vacation I've ever been on!."
+        </script>
+        
+       
+        <div class="buttons">
+            <button onclick="document.getElementById('vacay').src='images/beach.jpeg'">Beach</button>
+            <button onclick="document.getElementById('vacay').src='images/creek.jpeg'">Creek</button>
+            <button onclick="document.getElementById('vacay').src='images/view.jpeg'">View</button>
+        </div>
+
+        <img src="images/beach.jpeg" alt="beach" id="vacay" class="center">
+        <div class="buttons">
+            <button onclick="document.getElementById('vacay').style.display='block'">show</button>
+            <button onclick="document.getElementById('vacay').style.display='none'">hide</button>
+            <button onclick="document.getElementById('vacay').style.width='75%'">wider image</button>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy;2023 Joseph Davidson</p>
+    </footer>
+</body>
+</html>
