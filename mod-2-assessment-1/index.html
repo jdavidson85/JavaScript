@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basics, Math, Variables</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Food Ordering Service</h1>
+    </header>
+    <main class="container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="fname"><br>
+        <h2>Food Options</h2>
+        <div class = "food-options">
+            <form>
+                <input type="checkbox" id="burger" name="food" value="1">
+                <label for="burger"> Cheeseburger</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="hot-dog" name="food" value="2">
+                <label for="hot-dog"> Hot Dog</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="spaghetti" name="food" value="3">
+                <label for="spaghetti"> Spaghetti</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="steak-sandwich" name="food" value="4">
+                <label for="steak-sandwich"> Steak Sandwich</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="grilled-chicken" name="food" value="5">
+                <label for="grilled-chicken"> Grilled Chicken Sandwich</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+            </form>
+        </div>
+        <h2>Drink Options</h2>
+        <div class = "drink-options">
+            <form>
+                <input type="checkbox" id="coke" name="drinks" value="1">
+                <label for="coke"> Coca-cola</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="diet-coke" name="drinks" value="2">
+                <label for="diet-coke"> Diet Coke</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="sprite" name="drinks" value="3">
+                <label for="sprite"> Sprite</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="lemonade" name="drinks" value="4">
+                <label for="lemonade"> Lemonade</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="water" name="drinks" value="5">
+                <label for="water"> Water</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+            </form>
+        </div>
+        <h2>Dessert Options</h2>
+        <div class = "dessert-options">
+            <form>
+                <input type="checkbox" id="cake" name="dessert" value="1">
+                <label for="cake"> Vanilla Cake</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="choc-cake" name="dessert" value="2">
+                <label for="choc-cake"> Chocolate Cake</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="choc-ice-cream" name="drinks" value="3">
+                <label for="choc-ice-cream"> Chocolate Ice Cream</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="ice-cream" name="drinks" value="4">
+                <label for="ice-cream"> Vanilla Ice Cream</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+                <input type="checkbox" id="root-beer-float" name="drinks" value="5">
+                <label for="root-beer-float"> Root Beer Float</label> <label for="qty">Quantity:</label> <input type="text" id="qauntity" name="fname"><br>
+            </form>
+        </div>
+        <button type=button onclick="order()">Submit Order</button>
+    </main>
+    <footer>Joseph Davidson</footer>
+</body>
+</html>
