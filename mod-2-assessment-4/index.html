@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mod 2 Assessment 4</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/scripts.js"></script>
+</head>
+<body>
+    <header><h1>Thanks for Playing</h1></header>
+    <main>
+        <script>
+            var number = Math.floor(Math.random() * 1000 + 1)
+            var guess 
+            var output 
+            var guessed = false
+            do {
+                guess = prompt ("Think of a number between 1 and 1000, what is your number?");
+                document.write ("You guessed the number " + guess + "<br/>");
+                if (guess > number) {
+                    document.write ("You guessed too high, think smaller" + "<br/>");
+                    guessed = false
+                } else if (guess < number){
+                    document.write ("You guessed too low, think bigger" + "<br/");
+                    guessed = false
+                    } else {
+                        alert("You guessed the right number!")
+                        guessed = true}
+                      } while (guessed = false) 
+        </script>
+        <h2>Refresh to try again.</h2>
+    </main>
+    <footer>Joseph Davidson</footer>
+</body>
+</html>
